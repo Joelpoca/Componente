@@ -1,0 +1,171 @@
+/* _content/ITSignerWebComponent.SignApp/Pages/Cades/Cades-DropDownList.razor.rz.scp.css */
+.table-custom[b-efs9jfvfwf] {
+    background-color: #d4edda;
+}
+
+.table-custom:hover[b-efs9jfvfwf] {
+        background-color: #c8cbcf;
+}    
+/* _content/ITSignerWebComponent.SignApp/Pages/Signer/Signer-DropDownList.razor.rz.scp.css */
+.table-custom[b-tawj8o2cs1] {
+    background-color: #d4edda;
+}
+
+.table-custom:hover[b-tawj8o2cs1] {
+        background-color: #c8cbcf;
+}    
+/* _content/ITSignerWebComponent.SignApp/Pages/Signer/Signer.razor.rz.scp.css */
+.table-custom[b-pktcwdotfc] {
+    background-color: #d4edda;
+}
+
+.table-custom:hover[b-pktcwdotfc] {
+    background-color: #c8cbcf;
+}
+/* _content/ITSignerWebComponent.SignApp/Pages/Xades/Xades-DropDownList.razor.rz.scp.css */
+.table-custom[b-bwkrx40oad] {
+    background-color: #d4edda;
+}
+
+.table-custom:hover[b-bwkrx40oad] {
+        background-color: #c8cbcf;
+}    
+/* _content/ITSignerWebComponent.SignApp/Shared/MainLayout.razor.rz.scp.css */
+.page[b-wtafgbjfss] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-wtafgbjfss] {
+    flex: 1;
+}
+
+.sidebar[b-wtafgbjfss] {
+    background-image: linear-gradient(180deg, #3D28A2 0%, #141e22 70%);
+}
+
+.top-row[b-wtafgbjfss] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 5.9rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-wtafgbjfss]  a, .top-row .btn-link[b-wtafgbjfss] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-wtafgbjfss] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-wtafgbjfss] {
+        display: none;
+    }
+
+    .top-row.auth[b-wtafgbjfss] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-wtafgbjfss], .top-row .btn-link[b-wtafgbjfss] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-wtafgbjfss] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-wtafgbjfss] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-wtafgbjfss] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-wtafgbjfss] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/ITSignerWebComponent.SignApp/Shared/NavMenu.razor.rz.scp.css */
+.logo[b-5rc6z1u5g8] {
+    width: 195px;
+    max-height: 75px;
+}
+
+.navbar-toggler[b-5rc6z1u5g8] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-5rc6z1u5g8] {
+    height: 5.9rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-5rc6z1u5g8] {
+    font-size: 1.1rem;
+}
+
+.oi[b-5rc6z1u5g8] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-5rc6z1u5g8] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-5rc6z1u5g8] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-5rc6z1u5g8] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-5rc6z1u5g8]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-5rc6z1u5g8]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-5rc6z1u5g8]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-5rc6z1u5g8] {
+        display: none;
+    }
+
+    .collapse[b-5rc6z1u5g8] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
